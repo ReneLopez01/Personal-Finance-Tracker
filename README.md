@@ -27,21 +27,21 @@ A Java based CLI (Command Line Interface) application that allows users to track
 2. Download mySQL JBDC driver and insert into folder
    
 3. Create the database on MySQL
-   
-CREATE DATABASE finance_db;
-USE finance_db;
+   ```sql 
+   CREATE DATABASE finance_db;
+   USE finance_db;
 
-CREATE TABLE finance_info (
-    user_email VARCHAR(50) UNIQUE,
-    user_password VARCHAR(100)
-);
+   CREATE TABLE finance_info (
+       user_email VARCHAR(50) UNIQUE,
+       user_password VARCHAR(100)
+   );
 
-CREATE TABLE finance_expense (
-    user_email VARCHAR(50),
-    user_expense DECIMAL(12,2),
-    expense_category VARCHAR(13),
-    time_of_expense DATE
-);
+   CREATE TABLE finance_expense (
+       user_email VARCHAR(50),
+       user_expense DECIMAL(12,2),
+       expense_category VARCHAR(13),
+       time_of_expense DATE
+   );
 
 4. Then enter your User / Password for your MySQL
    ```bash
