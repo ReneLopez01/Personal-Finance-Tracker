@@ -77,7 +77,7 @@ class FinanceTracker{
             System.out.println("4. See all transaction history");
             System.out.println("5. Exit.");
             System.out.println("6. Delete Account.");
-
+			System.out.println("-------------------");
             int userInput = scan.nextInt();
             scan.nextLine();
             switch(userInput){
