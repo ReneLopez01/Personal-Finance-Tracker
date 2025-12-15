@@ -62,20 +62,29 @@ CREATE TABLE finance_expense (
 -how to use application , provided with screenshots & instructions;
 
 1. Log in or create a new account
+   
    ![Login Screen](screenshots/login.png)
    
-3. Add income or expenses
-   ![Add Expense](screenshots/add-expense.png)
-
-4. Generate monthly reports
-   ![Monthly Report](screenshots/monthly-report.png)
+2. Add income or expenses
    
-6. View all transactions
+   ![Add Expense](screenshots/expense.png)
+
+3. Generate monthly reports
    
-7. Exit the program
+   ![Monthly Report](screenshots/monthlyReport.png)
+   
+4. View all transactions
 
-8. Delete Account
+   ![Monthly Report](screenshots/allTransactions.png)
 
+5. Exit the program
+
+   ![Monthly Report](screenshots/exit.png)
+
+   
+6. Delete Account
+
+   ![Monthly Report](screenshots/delete.png)
 
 ## Project Structure
 - FinanceTracker.java          # Main program
