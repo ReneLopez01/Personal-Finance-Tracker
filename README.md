@@ -20,11 +20,11 @@ A Java based CLI (Command Line Interface) application that allows users to track
 - MySQL JDBC Driver (I used;  mysql-connector-j-9.5.0.jar)
 
 ### Installation
-1. Clone the repository:
-   ```Run in terminal```
+1. Clone the repository
+   ```bash
    git clone https://github.com/ReneLopez01/Personal_Finance_Tracker.git
 
-2. Download mySQL JBDC driver and insert into folder,
+2. Download mySQL JBDC driver and insert into folder
    
 3. Create the database on MySQL
    
@@ -44,17 +44,17 @@ CREATE TABLE finance_expense (
 );
 
 4. Then enter your User / Password for your MySQL
-   ```Run this in terminal```
+   ```bash
    export DB_USER=root
    
    export DB_PASSWORD=yourSQLpassword
 
 5. Then Compile project
-   ```Run this in terminal```
+   ```bash
    javac -cp .:mysql-connector-j-9.5.0.jar FinanceTracker.java ExpenseManager.java UserManager.java
 
 6. Run project
-   ```Run this in terminal```
+   ```bash
    java -cp .:mysql-connector-j-9.5.0.jar FinanceTracker
 
 
